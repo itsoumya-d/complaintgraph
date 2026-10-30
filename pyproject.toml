@@ -8,8 +8,8 @@ version = "0.1.0"
 description = "Public-review complaint mining: a small transformer, theme clustering and evidence-backed product gap reports."
 requires-python = ">=3.9"
 dependencies = [
-  "transformers>=4.40,<5
-huggingface_hub>=0.24,<1",
+  "transformers>=4.40,<5",
+  "huggingface_hub>=0.24,<1",
   "torch>=2.2",
   "datasets>=2.19,<5",
   "scikit-learn>=1.3",
