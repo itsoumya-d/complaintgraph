@@ -1,0 +1,19 @@
+{
+  "base_model": "distilbert-base-uncased",
+  "method": "frozen mean-pooled embeddings + logistic regression",
+  "accuracy": 0.6902777777777778,
+  "macro_f1": 0.6889280193991811,
+  "per_class_f1": {
+    "0": 0.6958333333333333,
+    "1": 0.5774946921443737,
+    "2": 0.7934560327198364
+  },
+  "train_size": 2880,
+  "eval_size": 720,
+  "max_length": 96,
+  "labels": {
+    "0": "negative",
+    "1": "neutral",
+    "2": "positive"
+  }
+}
