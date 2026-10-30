@@ -1,6 +1,7 @@
-transformers>=4.40
+transformers>=4.40,<5
+huggingface_hub>=0.24,<1
 torch>=2.2
-datasets>=2.19
+datasets>=2.19,<5
 scikit-learn>=1.3
 pandas>=2.0
 numpy>=1.26
