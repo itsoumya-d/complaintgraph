@@ -2,6 +2,8 @@
 
 **Public-review complaint mining → a small trained transformer → evidence-backed product gap reports.**
 
+**Live page:** https://itsoumya-d.github.io/complaintgraph/
+
 ComplaintGraph is an independent, reproducible pipeline for turning public app-store reviews into a
 prioritised list of product complaints. It fine-tunes a tiny transformer on a balanced public sample,
 clusters negative reviews into themes, and generates a Markdown report with evidence quotes and
